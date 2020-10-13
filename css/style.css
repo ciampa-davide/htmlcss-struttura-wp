@@ -6,23 +6,30 @@ body{
 }
 
 header{
-  height: 200px;
+  height: 195px;
   background: lightgrey;
+  text-align: center;
+}
+
+.menu{
+  background: red;
+  margin-top: 8%;
 }
 ul{
   list-style: none;
-  text-decoration: none;
   color: black;
+  border: 5px solid black;
 }
 ul > li{
   display: inline-block;
-  text-align: center;
   background: red;
+  margin: 0 15px;
+
 }
 a{
   text-decoration: none;
   color: black;
-  vertical-align: bottom;
+
 }
 
 main{
